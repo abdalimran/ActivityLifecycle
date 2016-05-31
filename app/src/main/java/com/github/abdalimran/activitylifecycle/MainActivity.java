@@ -22,12 +22,10 @@ public class MainActivity extends Activity {
         Log.d(TAG, "onCreate");
     }
 
-
     public void open(View view) {
         Intent intent = new Intent(getApplicationContext(),NewActivity.class);
         startActivity(intent);
     }
-
 
     public void ShowTxt(View view) {
         showtext.setText("You've clicked this button!");
